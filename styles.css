@@ -1,10 +1,15 @@
+body {
+    background-color: pink;
+}
+
 .grid {
     border: 1px solid;
     height: 480px;
     width: 560px;
     display: flex;
     flex-wrap: wrap;
-  }
+    margin: 0 auto;
+}
   
   .grid div {
     height: 80px;
@@ -22,5 +27,5 @@
 }
   
 h3 {
-    color: red;
+    text-align: center;
 }
